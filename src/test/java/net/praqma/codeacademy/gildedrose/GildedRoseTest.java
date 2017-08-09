@@ -16,10 +16,10 @@ public class GildedRoseTest {
 
     @Test
     public void next() {
-        Item[] items = new Item[] { new Item("next", 0, 0) };
+        Item[] items = new Item[] { new Item("Aged Brie", 2, 0) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals("maakemefix", app.items[0].name);
+        assertEquals("Aged Brie", app.items[0].name);
     }
 
 }
